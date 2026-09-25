@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Sekuya&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@utility text-trim {
+   text-box: trim-both cap alphabetic;
+}
+
+@theme {
+   --font-rhdis: 'Red Hat Display', sans-serif;
+   --font-rh: 'Red Hat Text', sans-serif;
+   --font-zld: 'Zalando Sans', sans-serif;
+   --font-sky: 'Sekuya', sans-serif;
+   --font-urban: 'Urbanist', sans-serif;
+   --color-blam: #000640;
+   --color-yelam: #f3ae41;
+}
